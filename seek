@@ -1,0 +1,7 @@
+f=open("D:/ag/temp.txt","r")
+str=f.read(10)
+print(str)
+f.seek(5,0)
+str1=f.read(10)
+print(str1)
+
